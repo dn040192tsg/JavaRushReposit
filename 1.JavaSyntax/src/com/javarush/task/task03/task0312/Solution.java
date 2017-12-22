@@ -16,7 +16,7 @@ public class Solution {
 
     public static int convertToSeconds(int hour)
     {
-        int sec = hour * 60;
+        int sec = hour * 60 * 60;
         return sec;
     }
 }
