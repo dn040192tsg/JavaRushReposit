@@ -15,6 +15,11 @@ public class Solution {
 
     public static void main(String[] args) throws Exception {
         Scanner scan = new Scanner(System.in);
+        SimpleDateFormat dateFormat = new SimpleDateFormat("MMM dd, YYYY", Locale.ENGLISH);
+        Date date = new Date(scan.nextLine());
+
+        System.out.println(dateFormat.format(date).toUpperCase());
+
 
     }
 }
